@@ -1,0 +1,55 @@
+{
+    "title_selector": {
+        "selectors": [
+            {
+                "selector": "h3.entry-title",
+                "attrib": null
+            }
+        ],
+        "ignores": [],
+        "replace": []
+      },
+      "date_publish_selector": {
+        "selectors": [
+            {
+                "selector": ".date-header > span",
+                "attrib": null
+            }
+        ],
+        "ignores": [],
+        "replace": []
+      },
+      "author_selector": {
+        "selectors": [
+            {
+                "selector": ".g-profile > span",
+                "attrib": null
+            }
+        ],
+        "ignores": [],
+        "replace": []
+      },
+      "content_selector": {
+        "selectors":[
+            {
+                "selector": ".entry-content",
+                "attrib": null
+            }
+        ],
+        "ignores": [
+            "script", 
+            "div[style='clear:both; margin:10px 0"
+        ],
+        "replace": []
+      },
+      "section_selector": {
+        "selectors":[
+            {
+                "selector": ".category a",
+                "attrib": null
+            }
+        ],
+        "ignores": [],
+        "replace": []
+      }
+}
