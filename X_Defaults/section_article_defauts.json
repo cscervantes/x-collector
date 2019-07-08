@@ -1,0 +1,15 @@
+{
+    "article_config" : {
+		"startsWith" : [],
+		"endsWith" : ["#comment-form"],
+		"containsWith" : [
+			"/uploads/"
+		],
+		"exact" : [],
+		"accept_only" : [],
+		"regex_include" : [
+			"/\\/(\\d+)\\//g"
+		],
+		"regex_exclude" : []
+	}
+}

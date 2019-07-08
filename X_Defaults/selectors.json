@@ -4,6 +4,10 @@
             {
                 "selector": "h3.entry-title",
                 "attrib": null
+            },
+            {
+                "selector": "h1.entry-title",
+                "attrib":null
             }
         ],
         "ignores": [],
@@ -14,15 +18,27 @@
             {
                 "selector": ".date-header > span",
                 "attrib": null
+            },
+            {
+                "selector": "#art_plat",
+                "attrib":null
             }
         ],
-        "ignores": [],
+        "ignores": ["a"],
         "replace": []
       },
       "author_selector": {
         "selectors": [
             {
                 "selector": ".g-profile > span",
+                "attrib": null
+            },
+            {
+                "selector": "#art_plat > a",
+                "attrib": null
+            },
+            {
+                "selector": "#art_author a",
                 "attrib": null
             }
         ],
@@ -34,11 +50,20 @@
             {
                 "selector": ".entry-content",
                 "attrib": null
+            },
+            {
+                "selector": "#article_content",
+                "attrib": null
             }
         ],
         "ignores": [
-            "script", 
-            "div[style='clear:both; margin:10px 0"
+            "script", "#billboard_article", "#ch-follow-us", "#mr-usa-wrap",
+            ".-ob-div", "#ztoop", ".view-comments", "#article_tags", "#article_disclaimer",
+            "#article_social_trending", "noscript", "style", ".adsbygoogle",
+            "div[style='clear:both; margin:10px 0']", "#article-new-featured",
+            "div[id^='mr-']", "div[id^='rn-']", "div[id^='read-']", "#lsmr-lbl", "#lsmr-wrap",
+            "p[style='color:#989898;font-size:14px;']", "#mr-2018-wrap", "#ms-slider-wrap",
+            "div[style='width:100%;height:1px;border-top:1px solid #989898;padding-bottom:20px;margin-top:20px;clear:both;']"
         ],
         "replace": []
       },
@@ -46,6 +71,10 @@
         "selectors":[
             {
                 "selector": ".category a",
+                "attrib": null
+            },
+            {
+                "selector": "#art_bc a",
                 "attrib": null
             }
         ],
